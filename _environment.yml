@@ -1,0 +1,16 @@
+name: stock-market
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - prophet
+      - streamlit
+      - --find-links https://download.pytorch.org/whl/torch_stable.html
+      - neuralprophet
+      - yfinance
